@@ -18,7 +18,9 @@
     "lit-html": "^1.2.1"
   },
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.5",
     "conjurate": "^0.6.0",
-    "es-dev-server": "^1.54.0"
+    "es-dev-server": "^1.54.0",
+    "request": "^2.88.2"
   }
 }
