@@ -1,0 +1,24 @@
+{
+  "name": "lit-starter",
+  "description": "simple lit-html + lit-element starter without bundler",
+  "keywords": [
+    "lit-element",
+    "lit-html",
+    "lit-starter"
+  ],
+  "version": "1.0.0",
+  "author": "roquef",
+  "scripts": {
+    "dev": "es-dev-server --app-index index.html --node-resolve --dedupe --watch --open",
+    "postinstall": "npx snowpack",
+    "conjurate": "conjurate component "
+  },
+  "dependencies": {
+    "lit-element": "^2.3.1",
+    "lit-html": "^1.2.1"
+  },
+  "devDependencies": {
+    "conjurate": "^0.6.0",
+    "es-dev-server": "^1.54.0"
+  }
+}
